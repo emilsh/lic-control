@@ -1,0 +1,47 @@
+# Виртуальное окружение
+venv/
+.env/
+
+# Кеши Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи и отладочные файлы
+*.log
+*.out
+*.err
+
+# Конфигурации среды разработки
+.vscode/
+.idea/
+*.swp
+
+# Файлы, содержащие чувствительную информацию
+*.env
+
+# Скомпилированные файлы Cython
+*.pyd
+*.so
+*.dll
+
+# Jupyter Notebook checkpoint
+.ipynb_checkpoints
+
+# Профильные файлы
+*.prof
+
+# Создаваемые тестовые отчёты
+.coverage
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Общие сборочные файлы
+*.egg
+*.egg-info/
+dist/
+build/
+
